@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EBELAA Lifestyle - প্রিমিয়াম পোশাক ব্র্যান্ড। শার্ট, পাঞ্জাবি, শাড়ি, হুডি, জিন্স। বাংলাদেশে সেরা কালেকশন।">
+    <meta name="keywords" content="EBELAA Lifestyle, পোশাক, শার্ট, পাঞ্জাবি, শাড়ি, হুডি, জিন্স, লাইফস্টাইল">
+    <title>EBELAA Lifestyle | প্রিমিয়াম পোশাক</title><!-- Font & Icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #f8f9fa; }
+
+    /* Header */
+    header { background: #001f3f; color: white; padding: 1rem 0; position: fixed; top: 0; width: 100%; z-index: 1000; }
+    header .container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+    .logo { font-size: 1.8rem; font-weight: 700; color: #FFD700; }
+    nav ul { list-style: none; display: flex; }
+    nav li { margin-left: 2rem; }
+    nav a { color: white; text-decoration: none; }
+    .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+
+    /* Hero */
+    .hero { background: url('https://via.placeholder.com/1920x800/001f3f/ffffff?text=EBELAA+Lifestyle') no-repeat center/cover; height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; color: white; margin-top: 70px; }
+
+    /* Buttons */
+    .btn { background: #FFD700; color: #001f3f; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 600; }
+
+    /* Sections */
+    section { padding: 5rem 0; }
+    .section-title { text-align: center; font-size: 2.5rem; color: #001f3f; margin-bottom: 3rem; }
+
+    /* Product */
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 0 20px; }
+    .product-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; }
+    .product-card img { width: 100%; height: 300px; object-fit: cover; }
+    .product-card h3 { padding: 1rem; }
+
+    /* Contact */
+    .contact-info p { font-size: 1.2rem; margin-bottom: 1rem; }
+
+    /* Footer */
+    footer { background: #001f3f; color: white; text-align: center; padding: 2rem 0; }
+</style>
+
+</head><body><header>
+    <div class="container">
+        <div class="logo">EBELAA <span style="color:#fff;">Lifestyle</span></div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#home">হোম</a></li>
+                <li><a href="#products">প্রোডাক্ট</a></li>
+                <li><a href="#about">আমাদের সম্পর্কে</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header><section id="home" class="hero">
+    <div>
+        <h1 style="font-size:4rem;">EBELAA <span style="color:#FFD700;">Lifestyle</span></h1>
+        <p style="font-size:1.5rem;">যেখানে ফ্যাশন ও আরাম একসাথে</p>
+        <a href="#products" class="btn">কালেকশন দেখুন</a>
+    </div>
+</section><section id="products">
+    <h2 class="section-title">আমাদের প্রোডাক্ট</h2>
+    <div class="product-grid">    <div class="product-card">
+        <img src="https://via.placeholder.com/300x400/001f3f/ffffff?text=Premium+Shirt">
+        <h3>প্রিমিয়াম শার্ট</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x400/0074D9/ffffff?text=Panjabi">
+        <h3>পাঞ্জাবি</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x400/FFD700/001f3f?text=Saree">
+        <h3>জামদানি শাড়ি</h3>
+    </div>
+
+</div>
+
+</section><section id="about">
+    <h2 class="section-title">আমাদের সম্পর্কে</h2>
+    <div style="max-width:800px;margin:auto;text-align:center;">
+        EBELAA Lifestyle বাংলাদেশের একটি প্রিমিয়াম পোশাক ব্র্যান্ড। আমরা আরাম ও স্টাইল একসাথে নিয়ে আসি।
+    </div>
+</section><section id="contact">
+    <h2 class="section-title">যোগাযোগ করুন</h2>
+    <div class="contact-info" style="text-align:center;">
+        <p>📞 +880 17xxxxxxx</p>
+        <p>📧 info@ebelaa.com</p>
+        <p>📍 লক্ষ্মীপুর, বাংলাদেশ</p>
+    </div>
+</section><footer>
+    <p>&copy; 2025 EBELAA Lifestyle. সর্বস্বত্ব সংরক্ষিত।</p>
+</footer></body>
+</html>
